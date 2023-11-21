@@ -10,7 +10,10 @@ body {
   }
   .profile img {
     width: 150px;
-    border-radius: 50%;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    border-spacing: 10px;
   }
   .profile h1 {
     margin-top: 0;
@@ -31,4 +34,7 @@ body {
   .menu a:hover {
     color: #fff;
     background-color: #000;
+  }
+  .border1{
+    border: 5px solid black;
   }
